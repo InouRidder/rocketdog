@@ -1,0 +1,83 @@
+section.twitterfeed {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    background-size: cover !important;
+    @media (min-width: @screen-lg-min) {
+        padding-top: 144px;
+        padding-bottom: 140px;
+    }
+
+    i.fa {
+        text-align: center;
+        display: block;
+        color: @secondary-color;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+}
+
+ul.slider-twitter {
+    li {
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    .user {
+        a {
+            [data-scribe$="avatar"] {
+                display: none; 
+            }
+            [data-scribe$="name"] {
+                display: none;
+            }
+            [data-scribe$="screen_name"] {
+                display: block;
+                text-transform: uppercase;
+                color: @rollover-color;
+                font-size: 14px;
+                font-weight: @weight-bold;
+                letter-spacing: 2.6px;
+            }
+            [data-scribe$="verified_badge"] {
+                display: none;
+            }
+        }
+    }
+    p {
+        &.tweet {
+            font-family: @font-tweet;
+            padding: 0 20px;
+            margin: 34px auto 45px;
+            font-size: 27px;
+            font-weight: 300;
+            letter-spacing: -0.4px;
+            max-width: 600px;
+            line-height: 40px;
+            a {
+                font-style: italic;
+                color: @secondary-color;
+            }
+        }
+        &.timePosted {
+            text-transform: uppercase;
+            a {
+                color: @secondary-color;
+            }
+        }
+    }
+    .flickity-page-dots {
+        bottom: -15px;
+        .dot {
+            width: 6px;
+            height: 6px;
+            background-color: #565656;
+            &.is-selected {
+                width: 10px;
+                height: 10px;
+                background-color: @accent-color;
+                position: relative;
+                top: 2px;
+            }
+        }
+    } 
+}

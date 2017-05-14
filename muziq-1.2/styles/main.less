@@ -1,0 +1,148 @@
+/*------------------------------------------------------------------
+[Table of contents]
+0. Plugins 
+1. Default + reset
+
+2. Header / #header
+3. Navigation / #navbar
+4. Footer / #footer
+5. Content / #content
+
+6. Components
+  6.01. intro
+  6.02. loader
+  6.03. forms
+  6.04. list-horizontal-links
+  6.05. separator
+  6.06. button
+  6.07. slider-intro
+  6.08. player
+  6.09. separator-icon
+  6.10. featured-artist
+  6.11. ico-links
+  6.12. social
+  6.13. list-posts
+  6.14. quote
+  6.15. discography
+  6.16. tweets
+  6.17. last-media
+  6.18. upcomming-events
+  6.19. disc-tracklist
+  6.20. tourdates
+  6.21. upcomming-events-list
+  6.22. paginationposts
+  6.23. shop
+  6.24. time-circles
+  6.25. blog
+  6.26. color-picker
+
+7. Demo
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[0. Plugins]
+*/
+@import "helpers/all";
+/* Bootstrap */
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@icon-font-path: "../fonts/glyphicons/";
+/* Font Awesome */
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "../fonts/font-awesome";
+
+/* plugins intro slider */
+@import "../bower_components/superslides/dist/stylesheets/superslides.css";
+@import "../bower_components/owl-carousel/owl-carousel/owl.carousel.css";
+@import "../bower_components/owl-carousel/owl-carousel/owl.transitions.css";
+// slider
+@import "../bower_components/flickity/dist/flickity.min.css";
+// lightbox
+@import "../bower_components/swipebox/src/css/swipebox.min.css";
+// TimeCircles
+@import "../bower_components/timecircles/inc/TimeCircles.css";
+
+
+/*------------------------------------------------------------------
+[1. Default + reset]
+*/
+@import "base/all";
+@import "layout/all";
+
+/*------------------------------------------------------------------
+[6. Components]
+*/
+@import "components/all";
+
+/*------------------------------------------------------------------
+[7. Demo]
+*/
+@import "images/demo";
+
+.browsehappy {
+  margin: 0.2em 0; 
+  background: #ccc; 
+  color: #000; 
+  padding: 0.2em 0; 
+}
+
+body {
+  @media (max-width: 400px) {
+    overflow-x: hidden;
+  }
+}
+
+
+// body {
+    // background-color: violet;
+    // @media (min-width: @screen-sm-min) { // 768
+    //     background-color: red;
+    // }
+    // @media (min-width: @screen-md-min) { // 992
+    //     background-color: orange;
+    // }
+    // @media (min-width: @screen-lg-min) { // 1200
+    //     background-color: yellow;
+    // }
+    // @media (min-width: @screen-xlg-min) { // 1600
+    //     background-color: black;
+    // }
+// } 
+
+// /*==================================================
+// =            Bootstrap 3 Media Queries             =
+// ===============================================*/
+
+// /*==========  Mobile First Method  ==========*/
+
+// /* Custom, iPhone Retina */ 
+// @media only screen and (min-width : 320px) {}
+
+// /* Extra Small Devices, Phones */ 
+// @media only screen and (min-width : 480px) {}
+
+// /* Small Devices, Tablets */
+// @media only screen and (min-width : 768px) {}
+
+// /* Medium Devices, Desktops */
+// @media only screen and (min-width : 992px) {}
+
+// /* Large Devices, Wide Screens */
+// @media only screen and (min-width : 1200px) {}
+
+
+// /*==========  Non-Mobile First Method  ==========*/
+
+// /* Large Devices, Wide Screens */
+// @media only screen and (max-width : 1200px) {}
+
+// /* Medium Devices, Desktops */
+// @media only screen and (max-width : 992px) {}
+
+// /* Small Devices, Tablets */
+// @media only screen and (max-width : 768px) {}
+
+// /* Extra Small Devices, Phones */ 
+// @media only screen and (max-width : 480px) {}
+
+// /* Custom, iPhone Retina */ 
+// @media only screen and (max-width : 320px) {}

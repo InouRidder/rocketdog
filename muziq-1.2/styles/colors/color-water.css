@@ -1,0 +1,194 @@
+.palettewater .navbar-default .navbar-nav > li.active > a,
+.palettewater .navbar-default .navbar-nav > li.active > a:hover,
+.palettewater .navbar-default .navbar-nav > li.active > a:focus,
+.palettewater .navbar-default .navbar-nav > li > a:hover {
+  color: #90f9ce;
+}
+.palettewater .title {
+  color: #90f9ce;
+}
+.palettewater .subtitle-text {
+  color: #90f9ce;
+}
+.palettewater .title.small {
+  color: #90f9ce;
+}
+.palettewater p.quote-post {
+  color: #90f9ce;
+}
+.palettewater .flickity-page-dots .dot.is-selected {
+  background-color: #90f9ce;
+}
+@media (min-width: 992px) {
+  .palettewater .navbar-default .navbar-nav > li > a:before {
+    background-color: #90f9ce;
+  }
+}
+.palettewater .navbar-default .navbar-toggle:hover .icon-bar,
+.palettewater .navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #90f9ce;
+}
+.palettewater footer {
+  background-color: #90f9ce;
+}
+.palettewater .cssload-container > div {
+  background: #90f9ce;
+}
+.palettewater .btn.rounded {
+  background-color: #90f9ce;
+}
+.palettewater .btn.rounded.unactive {
+  background-color: #B7B7B7;
+  color: #7D7D7D;
+}
+.palettewater .btn.rounded.unactive i {
+  color: #5A5A5A;
+}
+.palettewater .btn.rounded.border {
+  background: transparent;
+}
+.palettewater .btn-invert:hover,
+.palettewater .btn-invert:focus,
+.palettewater .btn-invert:active,
+.palettewater .btn-invert.active {
+  background-color: #90f9ce;
+  border-color: #90f9ce;
+}
+.palettewater .player.horizontal .audiojs .play-pause {
+  background: #90f9ce;
+}
+.palettewater .player.horizontal .audiojs .progress {
+  background-color: #90f9ce;
+}
+.palettewater .featured-artist .rollover .social a:hover {
+  color: #90f9ce;
+}
+.palettewater ul.contact i {
+  color: #90f9ce;
+}
+.palettewater .social-links a:hover {
+  background-color: #90f9ce;
+  border-color: #90f9ce;
+}
+.palettewater p.date {
+  background-color: #90f9ce;
+}
+.palettewater .quote {
+  border: 10px solid #90f9ce;
+}
+.palettewater .quote p.author {
+  color: #90f9ce;
+}
+.palettewater .quote p.author:before {
+  background-color: #90f9ce;
+}
+.palettewater .carousel-discography .gallery-cell .cover .rollover i {
+  color: #90f9ce;
+}
+.palettewater .info-album p.artist {
+  color: #90f9ce;
+}
+.palettewater ul.slider-twitter .flickity-page-dots .dot.is-selected {
+  background-color: #90f9ce;
+}
+.palettewater .last-media {
+  border-top: 2px solid #90f9ce;
+}
+.palettewater .last-media .filters li.is-checked {
+  border-color: #90f9ce;
+}
+.palettewater .player-album.inverse-color .disc-tracklist li:not(.playing) .track-info p.track-title {
+  color: #90f9ce;
+}
+.palettewater .disc-tracklist li .audiojs.playing {
+  background-color: #90f9ce;
+}
+.palettewater .disc-tracklist li.playing-track {
+  background-color: #90f9ce;
+}
+.palettewater .tour-info p.subtitle-tour {
+  color: #90f9ce;
+}
+.palettewater .tour-info .dates-tour li:hover {
+  color: #90f9ce;
+}
+.palettewater .tour-info .dates-tour li.active {
+  background-color: #90f9ce;
+}
+.palettewater .tour-info .dates-tour li.active:before {
+  border-bottom: 13px solid #90f9ce;
+}
+.palettewater .upcomming-events-list li p span {
+  color: #90f9ce;
+}
+@media (min-width: 768px) {
+  .palettewater .upcomming-events-list li .date-event {
+    border-left: 2px solid #90f9ce;
+  }
+}
+.palettewater .paginationposts .pagination > li:hover > a,
+.palettewater .paginationposts .pagination > li.active > a,
+.palettewater .paginationposts .pagination > li:hover > span,
+.palettewater .paginationposts .pagination > li.active > span {
+  background-color: #90f9ce;
+}
+.palettewater .paginationposts.inverse-color .pagination > li:hover > a,
+.palettewater .paginationposts.inverse-color .pagination > li.active > a,
+.palettewater .paginationposts.inverse-color .pagination > li:hover > span,
+.palettewater .paginationposts.inverse-color .pagination > li.active > span {
+  background-color: #90f9ce;
+}
+.palettewater .ecommercebar .cart-big .acctions .btn {
+  background-color: #90f9ce;
+}
+.palettewater .shop-item .cover[data-label]:before {
+  background: #90f9ce;
+}
+.palettewater .shop-item .info .rating {
+  color: #90f9ce;
+}
+.palettewater .shop-item .info .price {
+  color: #90f9ce;
+}
+.palettewater .shop-item .info .artist {
+  color: #90f9ce;
+}
+.palettewater .post-details .post-comments .media > .pull-left {
+  background-color: #90f9ce;
+}
+.palettewater .post-details .post-comments .media-body .reply {
+  color: #90f9ce;
+}
+.palettewater .sidebar .title.small i {
+  color: #90f9ce;
+}
+.palettewater .sidebar .search .input-group-btn i {
+  color: #90f9ce;
+}
+.palettewater .sidebar .menu-sidebar li.active {
+  background-color: #90f9ce;
+}
+.palettewater .sidebar .last-tweets .date,
+.palettewater .sidebar .last-comments .date,
+.palettewater .sidebar .last-posts-sidebar .date {
+  color: #90f9ce;
+}
+.palettewater .sidebar .list-tags li a:hover {
+  background-color: #90f9ce;
+  border-color: #90f9ce;
+}
+.palettewater .sidebar .last-tweets .tweet p a,
+.palettewater .sidebar .last-comments .tweet p a {
+  color: #90f9ce;
+}
+.palettewater .carousel-discography .gallery-cell .cover .rollover,
+.palettewater .last-media .thumbnails .thumbnail .rollover,
+.palettewater .featured-artist .rollover {
+  background-color: rgba(144, 249, 206, 0.9);
+}
+.palettewater .disc-tracklist li.playing a {
+  background-color: #90f9ce;
+}
+.palettewater .disc-tracklist li.playing a .track-info {
+  border-color: #90f9ce;
+}

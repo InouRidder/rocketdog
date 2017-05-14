@@ -1,0 +1,51 @@
+.list-horizontal-links {
+    margin-top: 26px;
+    
+    font-style: italic;
+    font-size: 16px;
+    color: @primary-color;
+    letter-spacing: 3.7px;
+    line-height: 40px;
+    text-align: center;
+    li {
+        display: inline-block;
+        a {
+            color: @primary-color;
+            position: relative;
+            // rollover
+            &:after {
+                content: "";
+                display: block;
+                width: 25px;
+                height: 1px;
+                border-bottom: 2px solid @primary-color;
+                margin: 0 12px 3px;
+                position: absolute;
+                left: ~"calc(50% - 25px)";
+                bottom: -13px;
+
+                border-color: transparent;
+                left: ~"calc(50% - 12px)";
+                -webkit-transition: width .3s ease 0s,left .3s ease 0s;
+                -o-transition: width .3s ease 0s,left .3s ease 0s;
+                transition: width .3s ease 0s,left .3s ease 0s;
+                width: 0;
+            }
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                &:after {
+                    width: 25px;
+                    border-color: @primary-color;
+                    left: ~"calc(50% - 25px)";
+                }
+            }
+        }
+        &:not(:last-child) {
+            &:after {
+                content: "/";
+                margin: 0 10px 0 15px;
+            }
+        }
+    }
+}

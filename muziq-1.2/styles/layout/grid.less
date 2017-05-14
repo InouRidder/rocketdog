@@ -1,0 +1,193 @@
+/**
+ * Bootstrap No-Gutter Grid
+ */
+.row-no-gutter{
+  margin-right: 0;
+  margin-left: 0;
+  [class^="col-"],
+  [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.container-small {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.full-width .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0px;
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.section.discography {
+  .container {
+    @media (min-width: @screen-xlg-min) {
+      width: 100%;
+      padding: 0 58px;
+      max-width: 1900px;
+    }
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    .col-md-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.upcomming-events {
+  padding: 0 12px;
+  .container {
+      margin: 0 auto;
+      max-width: 1500px;
+      width: auto;
+  }
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.section.biography {
+  .container {
+
+    @media (min-width: @screen-lg-min) {
+      // width: 1000px;
+    }
+    @media (min-width: @screen-xlg-min) {
+      width: 1550px;
+    }
+  }
+}
+
+.section.player-album {
+    .container {
+        @media (min-width: @screen-xlg-min) {
+            width: 1500px;
+        }
+    }
+}
+
+.section.blog {
+  .container {
+    @media (min-width: @screen-xlg-min) {
+      width: 1420px;
+    }
+  }
+  &.single-post {
+    @media (min-width: @screen-xlg-min) {
+      .container {
+        width: 1310px;
+      }
+      .post-details {
+        max-width: 910px;
+      }
+    }
+  }
+}
+
+.last-media {
+  .container {
+      position: relative;
+      overflow: hidden;
+      margin: 0px auto; 
+      overflow: hidden; 
+      max-width: 800px;
+      width: auto;
+      padding: 0;
+      @media (min-width: @screen-lg-min) {
+          max-width: 1200px;
+      }
+      @media (min-width: @screen-xlg-min) {
+          max-width: 1480px;
+      }
+  }
+}
+
+.section.contact {
+  .container {
+    @media (min-width: @screen-xlg-min) {
+      width: 1030px;
+    }
+  }
+}
+
+body.page-shop {
+  .container {
+    @media (min-width: @screen-xlg-min) {
+      width: 1519px;
+      [class^="col-"],
+      [class*=" col-"] {
+          padding: 0 19px;
+      }
+    }
+  }
+}
+
+.section.featured-artists {
+  .container {  
+    @media (min-width: @screen-lg-min) {
+    }
+    @media (min-width: @screen-xlg-min) {
+      width: 1575px;
+      .row {
+        margin-left: -30px;
+        margin-right: -30px;
+        .col-md-3 {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+    }
+    .col-md-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.col-contact {
+  margin-top: 20px;
+  @media (min-width: @screen-sm-min){
+    padding-left: 20px;
+  }
+  @media (min-width: @screen-md-min) {
+    padding-left: 50px;
+  }
+}
+
+.comingsoon {
+  &.intro {
+    @media (max-width: @screen-sm-max) {
+      height: 800px;
+    }
+  }
+  @media (max-width: @screen-sm-max) {
+    .slides-container {
+      img {
+        max-width: none !important;
+        height: 100% !important;
+        width: auto !important;
+      }
+    }
+  }
+}

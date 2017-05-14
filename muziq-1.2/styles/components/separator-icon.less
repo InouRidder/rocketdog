@@ -1,0 +1,58 @@
+.separator-icon {
+    text-align: center;
+    font-size: 28px;
+    color: #A8A8A8;
+    margin: 0 auto;
+    position: relative;
+
+    i {
+        border: 2px solid rgba(222,222,222, 0.8);
+        height: 55px;
+        width: 55px;
+        padding-top: 14px;
+        border-radius: 50%;
+        position: relative;
+        &.fa-ticket:before {
+            top: -2px;
+            position: relative;
+        }
+        &.fa-music:before {
+            top: -6px;
+            left: -1px;
+            font-size: 20px;
+            position: relative;
+        }
+        &.fa-picture-o:before {
+            top: -3px;
+            font-size: 24px;
+            position: relative;
+        }
+    }
+    &:after,
+    &:before {
+        content: "";
+        height: 2px;
+        background-color: rgba(222,222,222, 0.8);
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 26px;
+    }
+    &:after {
+        left: ~'calc(50% + 28px)';
+    }
+    &:before {
+        right: ~'calc(50% + 27px)';
+    }
+
+    .inverse-color & {
+        i {
+            border-color: rgba(222,222,222, 0.2);
+        }
+        &:after,
+        &:before {
+            background-color: rgba(222,222,222, 0.2);
+        }
+    }
+}
