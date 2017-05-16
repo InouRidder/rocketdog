@@ -4486,11 +4486,24 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 
-.navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+@media (min-width: 768px) {
+  .navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 100px;
+  }
 }
 
 .navbar-brand:hover,
