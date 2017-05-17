@@ -667,15 +667,30 @@ textarea {
 .invertcolor a {
   color: #ffffff;
 }
-html,
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100%;
-  color: #000000;
+@media (max-width: 768px ) {
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 83%;
+    color: #000000;
+  }
+}
+
+@media (min-width: 768px ){
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    color: #000000;
+  }
 }
 body {
   scrollbar-face-color: #ffffff;
@@ -1211,6 +1226,7 @@ header .navbar-brand img {
 @media (max-width: 990px) {
   .navbar-header {
     float: none;
+    height: 68px;
   }
   .navbar-toggle {
     display: block;
@@ -1281,7 +1297,7 @@ footer ul.menu-footer li a {
   position: relative;
   overflow: hidden;
   height: 100%;
-  min-height: 540px;
+  min-height: 447px;
 }
 @media (min-width: 768px) {
   .intro {
